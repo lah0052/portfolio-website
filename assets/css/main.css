@@ -2593,6 +2593,10 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 		border-radius: 5px;
+		max-width: 100%;
+  		max-height: 325px;
+  		width: auto;
+  		height: auto;
 	}
 
 		.image img {
@@ -3325,7 +3329,7 @@ input, select, textarea {
 
 			#intro a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #18bfef !important; 
 			}
 
 		#intro strong, #intro b {
