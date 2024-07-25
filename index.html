@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Bio</title>
+	<title>About Me</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
@@ -15,7 +15,6 @@
 
 	<!-- Wrapper -->
 	<div id="wrapper" class="fade-in">
-
 		<!-- Intro -->
 		<div id="intro">
 			<h1>Lewis Halstead<br />
@@ -54,88 +53,58 @@
 		<!-- Main -->
 		<div id="main">
 			<!--About Me -->
-			<article >
-				<header class="major">
-					<h1>About Me</h1>
-				</header>
-			</article>
-
-			<article>
-				<header>
-					<h2>Background</h2>
-				</header>
-				<p style="text-indent: 5em;">
-					Currently employed as a Programmer Analyst at the Public Service Commission of West Virginia, where
-					I am currently training to developing reporting software for the transportation division. My
-					training encompasses a diverse skill set including T-SQL, Azure, Python, HTML, CSS, and JavaScript
-				</p>
-				<p style="text-indent: 5em;">
-					Prior to joining the Public Service Commission, I held roles at Chick-fil-A as a cook and at the
-					International Alliance of Theatrical Stage Employees as a stagehand. These experiences instilled in
-					me time management, communication, and teamwork skills. They also fostered my ability to
-					adapt to various environments, follow instructions meticulously, and collaborate effectively to
-					achieve shared objectives.
-				</p>
-				<p style="text-indent: 5em;">
-					I graduated from West Virginia University with a Bachelor of Science in Computer Engineering and a
-					Minor in Communication Studies. During my academic journey, I acquired proficiency in Java, C,
-					MATLAB, HTML, CSS, TypeScript, Agile Development, Assembly, and GitHub.
-				</p>
-				<p style="text-indent: 5em;">
-					Outside of my professional endeavors, I engage in a range of activities including weightlifting,
-					kickboxing, Ju Jitsu, boxing, basketball, golf, and music. Recently, I've also been learning to play the
-					piano.
-				</p>
-			</article>
-			</section>
-			<!-- Work Experience-->
+			<h1 class="title">About Me</h1>
 			<section>
+				<h2>Background</h2>
 				<article>
-					<header class="major">
-						<h1>Work Experience</h1>
-					</header>
+						<p style="text-indent: 5em;">
+							Currently employed as a Programmer Analyst at the Public Service Commission of West Virginia, where
+							I am currently training to developing reporting software for the transportation division. My
+							training encompasses a diverse skill set including T-SQL, Azure, Python, HTML, CSS, and JavaScript
+						
+							Prior to joining the Public Service Commission, I held roles at Chick-fil-A as a cook and at the
+							International Alliance of Theatrical Stage Employees as a stagehand. These experiences instilled in
+							me time management, communication, and teamwork skills. They also fostered my ability to
+							adapt to various environments, follow instructions meticulously, and collaborate effectively to
+							achieve shared objectives.
+						
+						
+							I graduated from West Virginia University with a Bachelor of Science in Computer Engineering and a
+							Minor in Communication Studies. During my academic journey, I acquired proficiency in Java, C,
+							MATLAB, HTML, CSS, TypeScript, Agile Development, Assembly, and GitHub.
+						
+						
+							Outside of my professional endeavors, I engage in a range of activities including weightlifting,
+							kickboxing, Ju Jitsu, boxing, basketball, golf, and music. Recently, I've also been learning to play the
+							piano.
+						</p>
 				</article>
 			</section>
+			
+			<!-- Work Experience-->
 			<section>
-				<article>
-					<header>
-						<h2>Programmer Analyst</h2>
-						<h6>Public Service Commission of West Virginia</h6>
-					</header>
+				<h2>Work Experience</h2>
 
-					<header class="major">
-						<span class="date">April 2024 - Present</span>
-					</header>
-
+				<div class="card">
+					<h3>Programmer Analyst</h3>
+					<p>Public Service Commission of West Virginia</p> <!---maybe just a p tag?-->
+					<span class="date">April 2024 - Present</span>
 					<p style="text-indent: 5em;">
 						Currently training to develop reporting software for the transportation division. My training
 						encompasses a diverse skill set including T-SQL, Azure, Python, HTML, CSS, and JavaScript. I also help upkeep the website, printers, computers, and servers.
 					</p>
-
-					<span class="image fit" style = "margin-bottom: 35rem;"><img src="images\PSCpic.jfif" alt="" /></span>
-				</article>
+					<span class="image fit" ><img src="images\PSCpic.jfif" alt="Public Service Commisions Logo" /></span>
+				</div>
 			</section>
 			<!-- Education-->
 			<section>
-				<article>
-					<header class="major">
-						<h1>Education</h1>
-					</header>
-				</article>
-			</section>
-			
-			<!--WVU-->
-			<section>
-				<article>
-					<header>
-						<h2>West Virgina University</h2>
-						<h6>Bachelor's in Computer Engineering | Minor in Communication Studies</h6>
-					</header>
+				<h2>Education</h2>
+				<!--WVU-->
+				<article class="card">
+					<h3>West Virgina University</h3>
+					<p>Bachelor's in Computer Engineering | Minor in Communication Studies</p>
 					
-					<header class="major">
-						<span class="date">Aug 2019 - Dec 2023</span>
-					</header>
-
+					<span class="date">Aug 2019 - Dec 2023</span>
 					<p style="text-indent: 5em;" ><span class="image right"><img  style ="border-radius: 5px;" src="images/wvu.jpg" alt="" /></span>My time at West Virginia University not only provided me with a robust education but also
 						facilitated the formation of lifelong friendships and cherished memories. I connected with
 						individuals from diverse backgrounds through various avenues such as classes, the Sigma Chi
@@ -144,19 +113,12 @@
 						dollars for cancer research, supporting the Huntsman Cancer Foundation. These experiences not only
 						enriched my collegiate years but also reinforced the significance of giving back to the community.
 					</p>
-
 				</article>
-			</section>
-			<!--SAHS-->
-			<section>
-				<article>
-					<header>
-						<h2>Saint Albans Highschool</h2>
-					</header>
-					<header class="major">
-						<span class="date">Aug 2015 - June 2019</span>
-					</header>
-						<p style="text-indent: 5em;" ><span class="image right"><img  style ="border-radius: 5px;" src="images/Saint Albans.jpg" alt="" /></span>During my tenure at SAHS I was commited to academic pursuits while also contributing to the baseball team. Our baseball team was extremely successful, 
+				<!--SAHS-->
+				<article class="card">
+					<h3>Saint Albans Highschool</h3>
+					<span class="date">Aug 2015 - June 2019</span>
+						<p style="text-indent: 5em;" ><span class="image right"><img  style ="border-radius: 5px;" src="images/Saint Albans.jpg" alt="" /></span>During my tenure at SAHS I was commited to academic pursuits while also contributing to the baseball team. Our baseball team was extremely successful,
 							clinching the 2017 AAA West Virginia Baseball State Championship and repeating in 2019. These landmark achievements made us the only baseball team in school history to win a state title. High school not only honed my academic and athletic abilities but also sculpted my character, shaping me into the individual I am today.</p>
 				</article>
 			</section>
