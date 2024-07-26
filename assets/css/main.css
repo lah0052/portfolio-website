@@ -9,15 +9,24 @@
 .title{
 	
 }
+
+.section{
+	padding: 2rem;
+}
 .card{
 	background-color:#d7dce0;
 	padding: 2rem;
 	border-radius: 1rem;
-}
-.card + .card{
-	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 
+.psc-img{
+	border-radius: 1rem;
+	width: 50%;
+	height: 20%;
+	padding:2rem;
+	background-color: white;
+}
 .image{
 	border-radius: 1rem;
 }
