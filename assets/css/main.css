@@ -17,11 +17,20 @@ span.date{
 .section{
 	padding: 2rem;
 }
-.project-card{
-	display: flex;
-	flex-direction: column;
+.centered{
+	text-align:  center;
 }
-
+.project-card{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 0.1fr 0.25fr 1fr 0.5fr 0.1fr;
+}
+.indent{
+	text-align: center;
+}
+.indent + .indent{
+	margin-top: 2rem;
+}
 .card-edu{
 	display: grid;
 	background-color:#d7dce0;
@@ -69,6 +78,10 @@ span.date{
 		grid-column-end: 3;
 		grid-row-start: -3;
 		grid-row-end: -1;
+	}
+	.indent{
+		text-indent: 5rem;
+		text-align: start;
 	}
 	/* .card-wrk{
 		grid-template-areas:
